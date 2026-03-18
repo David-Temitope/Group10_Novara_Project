@@ -1,11 +1,51 @@
-import React from 'react'
+import React from 'react';
+import './Hero.css';
+import logo from './assets/logo.png';
+import earthImage from '../../assets/';
 
 const Hero = () => {
+    const scrollToSection = (id) => {
+        const element = document.getElementById(id);
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth'});
+        }
+    };
+
   return (
-    <div>
-        
-    </div>
+    <section className="hero">
+        <div className="container">
+            <header className="hero-header">
+                <img src={logo} alt="Planet Logo" className='logo' />
+            </header>
+
+            <div className="hero-content">
+                <div className="hero-text">
+                    <h1>Explore Our Solar System Through Data</h1>
+                    <p>
+                        Understand the planets not just by name, but by
+                        measurable facts. From size and mass to gravity and density,
+                        this page breaks down the solar system in a clear, data-driven way.
+                    </p>
+
+                    <div className="hero-btns">
+                        <button className="btn btn-primary"
+                        onClick={() => scrollToSection('imageSection')}>
+                            Explore the Data
+                        </button>
+
+                        <button className="btn btn-outline"
+                        onClick={() => scrollToSection('Form')}>
+                            Contact Us
+                        </button>
+                    </div>
+                </div>
+                <div className="hero-image">
+                    <img src={earthImage} alt="The Earth" />
+                </div>
+            </div>
+        </div>
+    </section>
   )
 }
 
-export default Hero
+export default Hero;
