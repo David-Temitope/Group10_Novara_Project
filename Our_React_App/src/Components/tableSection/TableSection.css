@@ -1,0 +1,83 @@
+/* Container padding */
+.planetary-table-section {
+padding: 40px 20px;
+font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+color: #1e293b;
+}
+
+.table-header h2 {
+color: #1d4ed8;
+font-size: 1.8rem;
+margin-bottom: 12px;
+}
+
+.table-header p {
+font-size: 1rem;
+color: #475569;
+max-width: 800px;
+line-height: 1.6;
+margin-bottom: 24px;
+}
+
+.data-source {
+display: block;
+font-weight: 600;
+font-size: 0.95rem;
+margin-bottom: 16px;
+color: #1e293b;
+}
+
+.table-scroll-container {
+overflow-x: auto;
+border-radius: 12px;
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.planetary-table {
+width: 100%;
+border-collapse: collapse;
+font-size: 0.95rem;
+min-width: 800px; /* Forces scrolling on small screens instead of breaking the layout */
+}
+
+.planetary-table th {
+background-color: #1d4ed8;
+color: white;
+font-weight: 600;
+padding: 16px;
+text-align: center;
+}
+
+.planetary-table th.span-cell {
+background-color: #1d4ed8;
+}
+
+.planetary-table td {
+padding: 14px;
+text-align: center;
+border-bottom: 1px solid #e2e8f0;
+border-right: 1px solid #e2e8f0;
+background-color: white;
+}
+
+
+.planetary-table td.category-blue {
+background-color: #dbeafe;
+font-weight: 600;
+vertical-align: middle;
+}
+
+
+.planetary-table td.subcategory-blue {
+background-color: #eff6ff;
+font-weight: 500;
+vertical-align: middle;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+.planetary-table th, .planetary-table td {
+padding: 12px 8px;
+font-size: 0.85rem;
+}
+}
