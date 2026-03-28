@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import PlanetCard from "./PlanetCard";
+import PlanetCard from "./planetCard";
 import "./ImageSection.css";
 
 const ImageSection = () => {
