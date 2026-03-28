@@ -6,19 +6,33 @@
 
 **Brief Description:** A responsive single-page React app built with Vite, featuring a hero section, form section, image section, table section, video section, and footer.
 
-**Components and Responsibilities:**
-- `Hero` (built by Obasa David Temitope)
-- `VideoSection` (built by Obasa David Temitope)
-- `FormSection` (built by Daang Barnabas Tangame)
-- `ImageSection` (built by Ayo)
-- `TableSection` (built by Oluwasemilore Adedibu)
-- `Footer`
+**​Team Contributors**
+​Abbas Bashir Suleiman – Project Architecture & Component Workflow Lead
+​https://github.com/Mrbaz1
 
-**Team Contributors:**
-- Obasa David Temitope (Hero and VideoSection)
-- Daang Barnabas Tangame (FormSection)
-- Ayo (ImageSection)
-- Oluwasemilore Adedibu (TableSection)
+​Obasa David Temitope – Hero & Video Sections
+​https://github.com/David-Temitope
+
+​Adetola Oluwatamilore Esther – Pull Request Review & Merging
+​https://github.com/estheradetola858-cell
+
+​Shobowale Racheal Oluwatunmise – Comprehensive Code Review & QA
+​https://github.com/Tunmise-Code
+
+​OLUWASEUN OTINWALE – Footer Section
+​https://github.com/OLUWASEUN4321
+
+​Daang Barnabas Tangame – Form Section
+​https://github.com/Witty014
+
+​Oluwasemilore Adedibu – Table Section
+​https://github.com/Semyl0re
+
+​Victor – Image Section
+​https://github.com/Ayhur-dev
+
+Oluwole Taiye Joseph - Guides us on how to create pull requests and how to deploy
+https://github.com/Teejoseph
 
 **How to run locally:**
 1. `npm install`
@@ -26,7 +40,7 @@
 3. Open the local URL shown in terminal (usually `http://localhost:5173`).
 
 **Live Deployment:**
-- [Add your deployed app URL here]
+- https://planetarydata10.netlify.app/
 
 
 ## Team Build Guide (for all sections)
