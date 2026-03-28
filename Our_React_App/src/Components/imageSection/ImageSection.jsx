@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import PlanetCard from "./PlanetCard";
+import PlanetCard from "./planetCard";
 import "./ImageSection.css";
 
 const ImageSection = () => {
@@ -13,7 +13,7 @@ const ImageSection = () => {
   }, []);
 
   return (
-    <section className="image-section">
+    <section id="imageSection" className="image-section">
       <div className="section-header">
         <h2>Visualizing the Differences Between Planets</h2>
         <p>

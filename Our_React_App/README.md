@@ -9,14 +9,16 @@
 **Components and Responsibilities:**
 - `Hero` (built by Obasa David Temitope)
 - `VideoSection` (built by Obasa David Temitope)
-- `FormSection`
-- `ImageSection`
-- `TableSection`
+- `FormSection` (built by Daang Barnabas Tangame)
+- `ImageSection` (built by Ayo)
+- `TableSection` (built by Oluwasemilore Adedibu)
 - `Footer`
 
 **Team Contributors:**
 - Obasa David Temitope (Hero and VideoSection)
-- [Add other team member names and components here]
+- Daang Barnabas Tangame (FormSection)
+- Ayo (ImageSection)
+- Oluwasemilore Adedibu (TableSection)
 
 **How to run locally:**
 1. `npm install`
