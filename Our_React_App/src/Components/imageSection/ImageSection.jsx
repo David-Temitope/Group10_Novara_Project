@@ -1,11 +1,40 @@
-import React from 'react'
+import React, { useEffect, useState } from "react";
+import PlanetCard from "./PlanetCard";
+import "./ImageSection.css";
 
 const ImageSection = () => {
-  return (
-    <div>
-        
-    </div>
-  )
-}
+  const [planets, setPlanets] = useState([]);
 
-export default ImageSection
+  useEffect(() => {
+    fetch("/data/planet.json")
+      .then((res) => res.json())
+      .then((data) => setPlanets(data))
+      .catch((err) => console.log(err));
+  }, []);
+
+  return (
+    <section className="image-section">
+      <div className="section-header">
+        <h2>Visualizing the Differences Between Planets</h2>
+        <p>
+          Each planet in our solar system has unique physical characteristics.
+          Visual comparisons help highlight how vastly different terrestrial
+          planets are from gas giants and ice giants.
+        </p>
+      </div>
+
+      <div className="planets-grid">
+        {planets.map((planet, index) => (
+          <PlanetCard
+            key={index}
+            name={planet.planet}
+            distance={planet.distanceFromSun}
+            image={planet.image}
+          />
+        ))}
+      </div>
+    </section>
+  );
+};
+
+export default ImageSection;
