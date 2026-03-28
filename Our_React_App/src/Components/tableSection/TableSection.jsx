@@ -14,6 +14,7 @@ Data about the planets of our solar system (Planetary facts taken from NASA)
 </span>
 </div>
 
+
 <div className="table-scroll-container">
 <table className="planetary-table">
 <thead>
