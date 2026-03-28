@@ -1,0 +1,89 @@
+.contact-section {
+  padding: 60px 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.contact-intro h2 {
+  color: #1e40af;
+  font-size: 1.5rem;
+  margin-bottom: 12px;
+}
+
+.planetary-form {
+  margin-top: 30px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Desktop: 2 columns */
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-weight: 600;
+  font-size: 0.85rem;
+  margin-bottom: 8px;
+}
+
+.form-group label span {
+  color: #ef4444;
+}
+
+.form-group input, 
+.form-group textarea {
+  padding: 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+.form-group textarea {
+  height: 120px;
+  resize: none;
+}
+
+.char-count {
+  font-size: 0.75rem;
+  color: #64748b;
+  margin-top: 4px;
+}
+
+.submit-btn {
+  margin-top: 25px;
+  background-color: #1d4ed8;
+  color: white;
+  padding: 12px 40px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #1e40af;
+}
+
+.submission-success {
+  text-align: center;
+  padding: 50px;
+  background: #f0fdf4;
+  border-radius: 12px;
+}
+
+/* MOBILE VIEW - Stack columns */
+@media (max-width: 768px) {
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .submit-btn {
+    width: 100%;
+  }
+}
