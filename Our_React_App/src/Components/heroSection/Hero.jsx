@@ -1,6 +1,7 @@
 import React from 'react';
 import './Hero.css';
 import earthImage from '../../assets/earth.png';
+import planetLogo from '../../assets/planetlogo.jpg';
 
 const Hero = () => {
     const scrollToSection = (id) => {
@@ -14,7 +15,7 @@ const Hero = () => {
     <section className="hero">
         <div className="container">
             <header className="hero-header">
-                <h2 className="hero-logo">Planet Stats</h2>
+                <img src={planetLogo} alt="Planet logo" className="hero-logo" />
             </header>
 
             <div className="hero-content">
